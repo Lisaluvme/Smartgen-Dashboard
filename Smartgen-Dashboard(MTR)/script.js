@@ -1,4 +1,4 @@
-const GENSET_LIST_BASE_URL = '/.netlify/functions/genset-list';
+const GENSET_LIST_BASE_URL = 'https://gensetapi.genset.com.my/api/genset-list';
 const ALARM_LIST_BASE_URL = 'https://gensetapi.genset.com.my/api/alarm-list';
 
 // NocoDB API configuration
@@ -53,7 +53,7 @@ async function startGenset(gensetId) {
 
     // TODO: Replace with your actual start genset API endpoint
     // This is a placeholder - you'll need to update this with the correct API details
-    const START_API_URL = `https://mgmgenerator.com/api/start`;
+    const START_API_URL = `https://gensetapi.genset.com.my/api/start`;
 
     const response = await fetch(START_API_URL, {
       method: 'POST', // or 'PUT' depending on your API
@@ -98,7 +98,7 @@ async function stopGenset(gensetId) {
 
     // TODO: Replace with your actual stop genset API endpoint
     // This is a placeholder - you'll need to update this with the correct API details
-    const STOP_API_URL = `https://mgmgenerator.com/api/stop`;
+    const STOP_API_URL = `https://gensetapi.genset.com.my/api/stop`;
 
     const response = await fetch(STOP_API_URL, {
       method: 'POST', // or 'PUT' depending on your API
