@@ -1,4 +1,4 @@
-const API_URL = 'https://mgmgenerator.com/api/stop';
+const API_URL = 'https://gensetapi.genset.com.my/api/stop';
 
 exports.handler = async (event, context) => {
   const headers = {

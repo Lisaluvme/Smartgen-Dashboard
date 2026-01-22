@@ -1,4 +1,4 @@
-const API_URL = 'https://mgmgenerator.com/api/alarms';
+const API_URL = 'https://gensetapi.genset.com.my/api/alarm-list';
 
 exports.handler = async (event, context) => {
   const headers = {
