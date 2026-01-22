@@ -17,14 +17,7 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    const utoken = process.env.SMARTGEN_UTOKEN;
-    if (!utoken) {
-      return {
-        statusCode: 500,
-        headers,
-        body: JSON.stringify({ error: 'SMARTGEN_UTOKEN not configured' }),
-      };
-    }
+    const utoken = 'bebf6914640ec3ed6bf00398fb7969da';
 
     const url = new URL(API_URL);
     url.searchParams.set('utoken', utoken);
