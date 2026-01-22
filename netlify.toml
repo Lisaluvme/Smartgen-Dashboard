@@ -1,0 +1,3 @@
+[build]
+  functions = "Smartgen-Dashboard(MTR)/functions"
+  publish = "Smartgen-Dashboard(MTR)"
