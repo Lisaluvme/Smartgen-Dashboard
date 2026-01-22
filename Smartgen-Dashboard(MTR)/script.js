@@ -1,4 +1,4 @@
-const GENSET_LIST_BASE_URL = 'https://gensetapi.genset.com.my/api/gensets';
+const GENSET_LIST_BASE_URL = 'https://gensetapi.genset.com.my/api/genset-list';
 const ALARM_LIST_BASE_URL = 'https://gensetapi.genset.com.my/api/alarm-list';
 
 // NocoDB API configuration
